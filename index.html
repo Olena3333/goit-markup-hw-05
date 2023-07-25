@@ -65,7 +65,9 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button type="button" class="button hero-btn">Order Service</button>
+          <button type="button" class="button hero-btn" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- section Our principle -->
@@ -419,14 +421,15 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
       </div>
     </footer>
     <!-- modal window ------------------------------>
-    <div class="backdrop">
+    <div class="backdrop data-modal">
       <div class="modal-window">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="24" height="24">
-            <use href="./images/icons.svg#aria-hidden"></use>
+            <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -736,9 +736,9 @@ button {
 }
 
 .modal-close-btn-icon {
-  /* fill: var(--cornflower, #e7e9fc);
+  fill: var(--cornflower, #e7e9fc);
   stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);*/
+  stroke: rgba(0, 0, 0, 0.1);
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
