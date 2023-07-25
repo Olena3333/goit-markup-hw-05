@@ -323,7 +323,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
           </ul>
         </div>
       </section>
-
+      <!-- customers ------------------------------>
       <section class="customers">
         <div class="container container-customers">
           <h2 class="section-title">Customers</h2>
@@ -421,10 +421,15 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
       </div>
     </footer>
     <!-- modal window ------------------------------>
-    <div class="backdrop data-modal">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
         <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="modal-close-btn-icon" width="24" height="24">
+          <svg
+            class="modal-close-btn-icon"
+            width="8"
+            height="8"
+            aria-label="close icon"
+          >
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
