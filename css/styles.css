@@ -168,7 +168,7 @@ button {
 }
 .active {
   position: relative;
-  color: var(--accent-color);
+  color: #404bbf;
 }
 .address .address-link:hover,
 .address .address-link:focus {
@@ -764,12 +764,12 @@ button {
 }
 .modal-close-btn-icon:hover,
 .modal-close-btn-icon:focus {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
+  color: #ffffff;
 }
