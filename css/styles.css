@@ -629,13 +629,21 @@ address {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  background-color: #404bbf;
+.modal-close-btn:hover {
+  background-color: #404bbf; 
   border: none;
 }
 
-.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus {
+  background-color: #404bbf; 
+  border: none;
+}
+
+.modal-close-btn:hover .modal-close-btn-icon {
+  fill: #ffffff; 
+}
+
+
 .modal-close-btn:focus .modal-close-btn-icon {
   fill: #ffffff; 
 }
@@ -685,7 +693,7 @@ address {
 }
 
 .reviev-form-input:focus {
-  border-color: #4d5ae5;
+  border-color: #4D5AE5;
 }
 
 .reviev-form-field-icon {
@@ -759,7 +767,7 @@ address {
 }
 
 .reviev-form-checkbox-policy:checked + .reviev-form-field-policy .reviev-form-own-checkbox {
-  background-color: #404bbf; /* Змінна #404bbf */
+  background-color: #404bbf; 
   border: none;
   fill: #f4f4fd; 
 }
