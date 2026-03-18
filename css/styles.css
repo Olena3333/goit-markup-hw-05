@@ -591,6 +591,16 @@ address {
   pointer-events: none;
 }
 
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.backdrop.is-open .modal-window {
+  transform: translate(-50%, -50%) scale(1); /* Плавне збільшення */
+}
+
 .modal-window {
   position: absolute;
   top: 50%;
@@ -686,6 +696,7 @@ address {
 
 .reviev-form-input:focus {
   border-color: #4D5AE5;
+  outline: none;
 }
 
 .reviev-form-field-icon {
@@ -695,6 +706,7 @@ address {
   transform: translateY(-50%);
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
 }
 
 .reviev-form-input:focus + .reviev-form-field-icon {
