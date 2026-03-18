@@ -632,8 +632,7 @@ address {
 .modal-close-btn:hover, 
 .modal-close-btn:focus {
   background-color: #404bbf; 
-  border: none;               
-  outline: none;             
+  border: none;                           
 }
 
 .modal-close-btn:hover .modal-close-btn-icon,
